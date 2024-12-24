@@ -25,7 +25,7 @@ hr {
 .imag {
   width: 20%;
   height: 70px;
-  background-image: url(/images/yasir.png);
+  background-image: url(yasir.png);
   background-size: cover;
 }
 
@@ -53,7 +53,7 @@ hr {
   .imag {
     width: 80%;
     height: 60px;
-    background-image: url(/images/yasir.png);
+    background-image: url(yasir.png);
     background-size: cover;
   }
   .nav {
@@ -93,7 +93,7 @@ hr {
   border-radius: 250px;
   background-color: #d01111;
   margin: 0px auto;
-  background-image: url(/images/right.jpg);
+  background-image: url(right.jpg);
   background-size: cover;
 }
 .name {
@@ -204,7 +204,7 @@ hr {
     height: 290px;
     border-radius: 250px;
     background-color: #d01111;
-    background-image: url(/images/right.jpg);
+    background-image: url(right.jpg);
     background-size: cover;
   }
   .name {
@@ -428,7 +428,7 @@ hr {
     background-color: transparent;
     height: 10vh;
     border-radius: 50px;
-    background-image: url(/images/whatsapp.jpg);
+    background-image: url(whatsapp.jpg);
     background-size: cover;
 }
 .fbox h1{
@@ -436,7 +436,7 @@ hr {
     font-size: 20px;
 }
 .icon2{
-    background-image: url(/images/gmail.jpg);
+    background-image: url(gmail.jpg);
     background-size: cover;
     width: 20%;
     background-color: transparent;
@@ -444,7 +444,7 @@ hr {
     border-radius: 50px;
 }
 .icon3{
-    background-image: url(/images/facebook.jpg);
+    background-image: url(facebook.jpg);
     background-size: cover;
     width: 16%;
     background-color: transparent;
@@ -464,7 +464,7 @@ h4{
         
     }
     .icon3{
-        background-image: url(/images/facebook.jpg);
+        background-image: url(facebook.jpg);
         background-size: cover;
         width: 16%;
         background-color: transparent;
@@ -487,12 +487,12 @@ h4{
         background-color: transparent;
         height: 8vh;
         border-radius: 50px;
-        background-image: url(/images/whatsapp.jpg);
+        background-image: url(whatsapp.jpg);
         background-size: cover;
         margin-left: 12px;
     }
     .icon2{
-        background-image: url(/images/gmail.jpg);
+        background-image: url(gmail.jpg);
         background-size: cover;
         width: 20%;
         background-color: transparent;
