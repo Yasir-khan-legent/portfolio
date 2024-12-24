@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  background: #000000;
+  color: rgb(253, 253, 253);
+  padding: 3px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+hr {
+  border: 3px solid rgb(226, 17, 17);
+  border-radius: 10px;
+  margin: 0px 100px;
+}
+.imag {
+  width: 20%;
+  height: 70px;
+  background-image: url(/images/yasir.png);
+  background-size: cover;
+}
+
+.link a {
+  margin-left: 80px;
+  font-size: 19px;
+  font-weight: 400;
+}
+.link a:hover {
+  background: linear-gradient(
+    to right,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221) ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent;
+  font-size: 19.5px;
+}
+@media only screen and (max-width: 600px) {
+  .link {
+    display: none;
+  }
+  hr {
+    margin: 0px 20px;
+  }
+  .imag {
+    width: 80%;
+    height: 60px;
+    background-image: url(/images/yasir.png);
+    background-size: cover;
+  }
+  .nav {
+    padding: 0px 0px;
+  }
+}
+.main {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(58, 119, 173);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.left {
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  padding: 80px 0px;
+  padding-left: 140px;
+  text-align: center;
+}
+.right {
+  width: 50%;
+  height: 80vh;
+  background-color: rgb(0, 0, 0);
+}
+.imagdiv {
+  width: 80%;
+  height: 70vh;
+  margin: 40px auto;
+}
+.rimag {
+  width: 60%;
+  height: 50vh;
+  border-radius: 250px;
+  background-color: #d01111;
+  margin: 0px auto;
+  background-image: url(/images/right.jpg);
+  background-size: cover;
+}
+.name {
+  font-size: 50px;
+  font-size: 3rem; /* فونٹ ک
+    font-weight: bold; /* موٹا فونٹ */
+  background: linear-gradient(
+    to right,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221)
+  ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent; /* ٹیکسٹ کے اندر بھرنے کا رنگ شفاف کریں */
+  margin: 10px 120px;
+}
+.left h1 {
+  color: white;
+  font-size: 40px;
+  background: linear-gradient(
+    to right,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221)
+  ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent; /* ٹیکسٹ کے اندر بھرنے کا رنگ شفاف کریں */
+  margin: 10px 120px;
+}
+.left h2 {
+  color: white;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.left p {
+  color: white;
+  font-size: 20px;
+}
+.left span {
+  background: linear-gradient(
+    to left,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221)
+  ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent; /* ٹیکسٹ کے اندر بھرنے کا رنگ شفاف کریں */
+}
+@media only screen and (max-width: 600px) {
+  .left {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .left h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(
+      to right,
+      rgb(228, 228, 228),
+      rgb(227, 221, 221)
+    ); /* گریڈیئنٹ */
+    -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+    -webkit-text-fill-color: transparent; /* ٹیکسٹ کے اندر بھرنے کا رنگ شفاف کریں */
+  }
+  .left h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    background: linear-gradient(
+      to right,
+      rgb(213, 47, 47),
+      rgb(227, 221, 221)
+    ); /* گریڈیئنٹ */
+    -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+    -webkit-text-fill-color: transparent; /* ٹیکسٹ کے اندر بھرنے کا رنگ شفاف کریں */
+    margin: 10px 120px;
+  }
+  .left p {
+    font-size: 12px;
+    padding: 0px 18px;
+  }
+  .main {
+    flex-direction: column-reverse;
+    /* height: 65vh; */
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .right {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    color: aqua;
+  }
+  .imagdiv {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+  }
+  .rimag {
+    width: 80%;
+    height: 290px;
+    border-radius: 250px;
+    background-color: #d01111;
+    background-image: url(/images/right.jpg);
+    background-size: cover;
+  }
+  .name {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+.main2 {
+  width: 100%;
+  height: 35vh;
+  background-color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skil {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.skil span {
+  background: linear-gradient(
+    to left,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221)
+  ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent;
+}
+.skbox {
+  width: 25%;
+  height: 30vh;
+  background-color: #2e2c2cac;
+  border: 5px solid rgb(243, 8, 8);
+  border-radius: 20px;
+  color: white;
+  padding: 20px 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.skbox span {
+  color: white;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 800;
+}
+.ht {
+  background-color: transparent;
+  font-weight: 800;
+}
+.load {
+  border: 1px soli white;
+  width: 100%;
+  height: 2vh;
+  border-radius: 20px;
+}
+.loadin {
+  width: 90%;
+  height: 2vh;
+  background-color: #dc3c3c;
+  border-radius: 20px;
+}
+.per {
+  border: px solid white;
+  width: 100%;
+  height: 3vh;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background-color: transparent;
+  margin: 3px;
+}
+.loadin2 {
+  width: 70%;
+  height: 2vh;
+  background-color: purple;
+  border-radius: 20px;
+}
+.loadin3 {
+  width: 50%;
+  height: 2vh;
+  background-color: #febe00;
+  border-radius: 20px;
+}
+.lore {
+  font-size: 13px;
+  background-color: transparent;
+  font-weight: 500;
+  color: rgb(141, 139, 139);
+}
+@media only screen and (max-width: 600px) {
+  .skbox {
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+    border: 3px solid red;
+  }
+  .lore {
+    font-size: 11px;
+  }
+  .main2 {
+    justify-content: space-around;
+    height: auto;
+  }
+}
+.work {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.work span {
+  background: linear-gradient(
+    to right,
+    rgb(213, 47, 47),
+    rgb(227, 221, 221)
+  ); /* گریڈیئنٹ */
+  -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+  -webkit-text-fill-color: transparent;
+}
+.main3 {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(6, 5, 5);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pimag {
+  width: 25%;
+  height: 30vh;
+  background-color: #000000;
+  border: 3px solid red;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ec0000;
+  border-radius: 10px;
+  position: relative;
+}
+.pimag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fc0707;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  text-align: center;
+  pointer-events: none; /* Prevent interaction with text */
+}
+.pimag:hover img {
+  transform: scale(1.1); /* Zoom in */
+}
+.pimag:hover .imgtext {
+  opacity: 1;
+  transform: translate(-50%, -60%); /* Slight upward animation */
+}
+@media only screen and (max-width: 600px){
+    .pimag{
+        width: 90%;
+        height: 28vh;
+        margin-top: 20px;
+    }
+    .main3{
+        height: auto;
+    }
+}
+.footer{
+    width: 100%;
+    height: 28vh;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.cont span{
+    background: linear-gradient(
+        to left,
+        rgb(213, 47, 47),
+        rgb(227, 221, 221) ); /* گریڈیئنٹ */
+      -webkit-background-clip: text; /* بیک گراؤنڈ کو ٹیکسٹ پر کلپ کریں */
+      -webkit-text-fill-color: transparent;  
+}
+.fbox{
+    width: 25%;
+    height: 13vh;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.674);
+    display: flex;
+   
+    align-items: center;
+    padding: 10px 10px
+}
+.icon{
+    width: 20%;
+    background-color: transparent;
+    height: 10vh;
+    border-radius: 50px;
+    background-image: url(/images/whatsapp.jpg);
+    background-size: cover;
+}
+.fbox h1{
+    color: white;
+    font-size: 20px;
+}
+.icon2{
+    background-image: url(/images/gmail.jpg);
+    background-size: cover;
+    width: 20%;
+    background-color: transparent;
+    height: 10vh;
+    border-radius: 50px;
+}
+.icon3{
+    background-image: url(/images/facebook.jpg);
+    background-size: cover;
+    width: 16%;
+    background-color: transparent;
+    height: 8vh;
+    border-radius: 50px;
+}
+h4{
+    color: white;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px){
+    .fbox{
+        width: 80%;
+        height: auto;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+    .icon3{
+        background-image: url(/images/facebook.jpg);
+        background-size: cover;
+        width: 16%;
+        background-color: transparent;
+        height: 6vh;
+        border-radius: 50px;
+        margin-left: 10px;
+    }
+    .fbox h1{
+        color: white;
+        font-size: 15px;
+    }
+    h4{
+        color: white;
+        margin-left: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .icon{
+        width: 21%;
+        background-color: transparent;
+        height: 8vh;
+        border-radius: 50px;
+        background-image: url(/images/whatsapp.jpg);
+        background-size: cover;
+        margin-left: 12px;
+    }
+    .icon2{
+        background-image: url(/images/gmail.jpg);
+        background-size: cover;
+        width: 20%;
+        background-color: transparent;
+        height: 8vh;
+        border-radius: 50px;
+    }
+    .fbox h1{
+        color: white;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+}
